@@ -8,7 +8,7 @@ CPPFLAGS := $(shell root-config --cflags) -I$(INC)/include
 LDFLAGS := $(shell root-config --glibs) 
 CPPFLAGS += -g -std=c++14
 
-TARGET = wwz_ana
+TARGET = CreatePulse
 
 SRC = app/CreateGaussianPeak.cc
 

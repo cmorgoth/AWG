@@ -8,13 +8,10 @@
 #include <TFile.h>
 
 int main( int argc, char** argv )
-{
-
-  
-  
+{ 
   //units will be in ns
   float t_low  = 0.0;
-  float t_high = 100.0;
+  float t_high = 10000.0;
   TF1* f1 = new TF1("f1", "gaus(0)+gaus(3)", t_low, t_high);
   float first_mean  = 10.;//ns
   float second_mean = 20.;//ns
